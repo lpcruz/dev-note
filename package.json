@@ -1,0 +1,24 @@
+{
+  "name": "dev-note",
+  "version": "1.0.0",
+  "description": "A tool to let you take notes when you need a break from pushing commits. It's good to write things down.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "npm run lint"
+  },
+  "bin": {
+    "dev-note": "./src/note.js"
+  },
+  "keywords": [
+    "notes",
+    "dev",
+    "software",
+    "writing"
+  ],
+  "author": "Laurence Cruz",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
