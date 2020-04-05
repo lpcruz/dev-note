@@ -8,7 +8,7 @@
     "test": "npm run lint"
   },
   "bin": {
-    "dev-note": "./src/note.js"
+    "dev-note": "src/note.js"
   },
   "keywords": [
     "notes",
@@ -20,5 +20,14 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^6.8.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpcruz/dev-note.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lpcruz/dev-note/issues"
+  },
+  "homepage": "https://github.com/lpcruz/dev-note#readme"
 }
