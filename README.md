@@ -1,12 +1,12 @@
 [![Build Status](https://travis-ci.com/lpcruz/dev-note.svg?branch=master)](https://travis-ci.com/lpcruz/dev-note)
-# dev-journal
+# @lpcruz/dev-note
 
 A node binary that auto-generates notes for you in markdown. 
 
 #### Installation
 
 ```
-$ npm install -g dev-journal
+$ npm install -g @lpcruz/dev-note
 ```
 
 #### Making a note
