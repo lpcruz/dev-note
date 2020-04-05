@@ -1,5 +1,5 @@
 {
-  "name": "dev-note",
+  "name": "@lpcruz/dev-note",
   "version": "1.0.0",
   "description": "A tool to let you take notes when you need a break from pushing commits. It's good to write things down.",
   "main": "index.js",
