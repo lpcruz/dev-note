@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/lpcruz/dev-note.svg?branch=master)](https://travis-ci.com/lpcruz/dev-note)
 # dev-journal
 
 A node binary that auto-generates notes for you in markdown. 
