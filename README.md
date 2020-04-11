@@ -16,7 +16,7 @@ Once you've successfully installed globally, you'll have access to the `dev-note
 
 ```
 cwd/
-├── journal/
+├── notes/
     ├── <MM-DD-YYYY>.md
 ```
 
