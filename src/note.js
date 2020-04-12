@@ -44,7 +44,7 @@ const formatHeader = date => {
 const mkdir = month => {
   const path = `./notes/${month}`;
   if (!fs.existsSync(path)) {
-    console.log('Looks like this is your first time running dev-journal this month');
+    console.log('Looks like this is your first time running dev-note this month');
     fs.mkdirSync(path, { recursive: true });
     console.log('We made a "notes" directory for your notes. Happy writing!');
   }
