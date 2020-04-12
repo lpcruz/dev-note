@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const fs = require('fs');
 
 /**
@@ -66,4 +65,10 @@ const note = () => {
   });
 };
 
-note();
+module.exports = {
+  getCurrentMonthName,
+  getFormattedDate,
+  mkdir,
+  formatHeader,
+  note
+}
