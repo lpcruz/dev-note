@@ -8,7 +8,7 @@
     "test": "npm run lint && mocha"
   },
   "bin": {
-    "dev-note": "src/note.js"
+    "dev-note": "bin/runner"
   },
   "keywords": [
     "notes",
