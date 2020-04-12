@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./src",
-    "test": "npm run lint"
+    "test": "npm run lint && mocha"
   },
   "bin": {
-    "dev-note": "src/note.js"
+    "dev-note": "bin/runner"
   },
   "keywords": [
     "notes",
@@ -19,7 +19,8 @@
   "author": "Laurence Cruz",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.1"
   },
   "dependencies": {},
   "repository": {
